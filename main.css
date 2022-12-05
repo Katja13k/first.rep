@@ -1,0 +1,403 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.start {
+  width: 800px;
+  height: 800px;
+  margin: 50px auto;
+  box-shadow: 0 0 10px;
+  background-color: azure;
+}
+
+p {
+  font-size: 40px;
+  text-align: center;
+  padding-top: 50px;
+  color: red;
+}
+
+#startBtn {
+  width: 600px;
+  height: 60px;
+  font-size: 30px;
+  font-style: oblique;
+  line-height: 1.3333333;
+  border-radius: 5px;
+  background-color: blue;
+  border-color: darkblue;
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 100px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 0 5px;
+}
+
+#startBtn:hover {
+  background-color: lightgreen;
+  font-size: 34px;
+  color: red;
+}
+
+.mainNav {
+  width: 800px;
+  height: 800px;
+  margin: 50px auto;
+  box-shadow: 0 0 10px;
+  background-color: azure;
+  display: none;
+}
+
+#historyBtn {
+  width: 400px;
+  height: 60px;
+  font-size: 30px;
+  font-style: oblique;
+  line-height: 1.3333333;
+  border-radius: 5px;
+  background-color: blue;
+  border-color: darkblue;
+  position: relative;
+  margin-top: 150px;
+  margin-left: 200px;
+  margin-bottom: 5px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 0 5px;
+  padding: 10px;
+}
+
+#geographyBtn {
+  width: 400px;
+  height: 60px;
+  font-size: 30px;
+  font-style: oblique;
+  line-height: 1.3333333;
+  border-radius: 5px;
+  background-color: blue;
+  border-color: darkblue;
+  position: relative;
+  margin-top: 5px;
+  margin-left: 200px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 0 5px;
+}
+
+#sportBtn {
+  width: 400px;
+  height: 60px;
+  font-size: 30px;
+  font-style: oblique;
+  line-height: 1.3333333;
+  border-radius: 5px;
+  background-color: blue;
+  border-color: darkblue;
+  position: relative;
+  margin-top: 5px;
+  margin-left: 200px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 0 5px;
+}
+
+#moviesBtn {
+  width: 400px;
+  height: 60px;
+  font-size: 30px;
+  font-style: oblique;
+  line-height: 1.3333333;
+  border-radius: 5px;
+  background-color: blue;
+  border-color: darkblue;
+  position: relative;
+  margin-top: 5px;
+  margin-left: 200px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 0 5px;
+}
+
+#cultureBtn {
+  width: 400px;
+  height: 60px;
+  font-size: 30px;
+  font-style: oblique;
+  line-height: 1.3333333;
+  border-radius: 5px;
+  background-color: blue;
+  border-color: darkblue;
+  position: relative;
+  margin-top: 5px;
+  margin-left: 200px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 0 5px;
+}
+
+#historyBtn:hover {
+  background-color: lightblue;
+  color: #c21761;
+  font-size: 34px;
+}
+
+#geographyBtn:hover {
+  background-color: lightblue;
+  color: #c21761;
+  font-size: 34px;
+}
+
+#sportBtn:hover {
+  background-color: lightblue;
+  color: #c21761;
+  font-size: 34px;
+}
+
+#moviesBtn:hover {
+  background-color: lightblue;
+  color: #c21761;
+  font-size: 34px;
+}
+
+#cultureBtn:hover {
+  background-color: lightblue;
+  color: #c21761;
+  font-size: 34px;
+}
+
+.quiz {
+  width: 800px;
+  height: 800px;
+  margin: 50px auto;
+  box-shadow: 0 0 10px;
+  display: none;
+}
+.quizGeo {
+  width: 800px;
+  height: 800px;
+  margin: 50px auto;
+  box-shadow: 0 0 10px;
+  display: none;
+}
+
+.quizSpr {
+  width: 800px;
+  height: 800px;
+  margin: 50px auto;
+  box-shadow: 0 0 10px;
+  display: none;
+}
+
+.quizMiS {
+  width: 800px;
+  height: 800px;
+  margin: 50px auto;
+  box-shadow: 0 0 10px;
+  display: none;
+}
+
+.quizCul {
+  width: 800px;
+  height: 800px;
+  margin: 50px auto;
+  box-shadow: 0 0 10px;
+  display: none;
+}
+
+header {
+  height: 170px;
+  line-height: 70px;
+  border-bottom: 2px solid #ddd;
+  text-align: center;
+  background-color: azure;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+}
+
+.option {
+  width: 300px;
+  height: 180px;
+  margin: 50px;
+  box-shadow: 0 0 4px;
+  float: left;
+  line-height: 180px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.option:hover {
+  cursor: pointer;
+  background-color: azure;
+}
+
+.optionGeo {
+  width: 300px;
+  height: 180px;
+  margin: 50px;
+  box-shadow: 0 0 4px;
+  float: left;
+  line-height: 180px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.optionGeo:hover {
+  cursor: pointer;
+  background-color: azure;
+}
+
+.optionSpr {
+  width: 300px;
+  height: 180px;
+  margin: 50px;
+  box-shadow: 0 0 4px;
+  float: left;
+  line-height: 180px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.optionSpr:hover {
+  cursor: pointer;
+  background-color: azure;
+}
+
+.optionMiS {
+  width: 300px;
+  height: 180px;
+  margin: 50px;
+  box-shadow: 0 0 4px;
+  float: left;
+  line-height: 180px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.optionCul {
+  width: 300px;
+  height: 180px;
+  margin: 50px;
+  box-shadow: 0 0 4px;
+  float: left;
+  line-height: 180px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.optionMiS:hover {
+  cursor: pointer;
+  background-color: azure;
+}
+
+.optionCul:hover {
+  cursor: pointer;
+  background-color: azure;
+}
+
+
+
+#backOnStartBtn {
+  width: 700px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin-left: 50px;
+  position: relative;
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+}
+
+#backOnStartBtn:hover {
+  background-color: lightblue;
+  color: red;
+  font-size: 25px;
+  cursor: pointer;
+  box-shadow: 0 0 3px;
+}
+
+#backOnStartBtnG {
+  width: 700px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin-left: 50px;
+  position: relative;
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+}
+
+#backOnStartBtnG:hover {
+  background-color: lightblue;
+  color: red;
+  font-size: 25px;
+  cursor: pointer;
+  box-shadow: 0 0 3px;
+}
+
+#backOnStartBtnS {
+  width: 700px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin-left: 50px;
+  position: relative;
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+}
+
+#backOnStartBtnS:hover {
+  background-color: lightblue;
+  color: red;
+  font-size: 25px;
+  cursor: pointer;
+  box-shadow: 0 0 3px;
+}
+
+#backOnStartBtnM {
+  width: 700px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin-left: 50px;
+  position: relative;
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+}
+
+#backOnStartBtnM:hover {
+  background-color: lightblue;
+  color: red;
+  font-size: 25px;
+  cursor: pointer;
+  box-shadow: 0 0 3px;
+}
+
+#backOnStartBtnC {
+  width: 700px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin-left: 50px;
+  position: relative;
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+}
+
+#backOnStartBtnC:hover {
+  background-color: lightblue;
+  color: red;
+  font-size: 25px;
+  cursor: pointer;
+  box-shadow: 0 0 3px;
+}
